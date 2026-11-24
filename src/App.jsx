@@ -1,0 +1,23 @@
+import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
+import Projects from './components/Projects.jsx'
+import Skills from './components/Skills.jsx'
+import Now from './components/Now.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
+
+export default function App() {
+  return (
+    <>
+      <Header />
+      <main id="top">
+        <Hero />
+        <Projects />
+        <Skills />
+        <Now />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+}
