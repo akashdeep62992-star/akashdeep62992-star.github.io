@@ -1,7 +1,7 @@
 // All portfolio content lives here, so updating the site means editing data, not markup.
 
 export const profile = {
-  name: 'Akash',
+  name: 'Akashdeep',
   role: 'Backend Developer',
   github: 'https://github.com/akashdeep62992-star',
   // Add these to show extra contact buttons:

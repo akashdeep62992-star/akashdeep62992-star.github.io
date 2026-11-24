@@ -10,7 +10,7 @@ export default function Header() {
       <div className="wrap">
         <a className="brand" href="#top">
           <span className="dot" aria-hidden="true" />
-          akash.dev
+          akashdeep.dev
         </a>
         <nav className="links" aria-label="Sections">
           {links.map((l) => (

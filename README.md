@@ -1,4 +1,4 @@
-# Akash · Portfolio
+# Akashdeep · Portfolio
 
 Personal portfolio site built with **React 18** and **Vite**. It's responsive from phone to desktop and follows the system's light or dark mode.
 
