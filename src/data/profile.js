@@ -5,8 +5,8 @@ export const profile = {
   role: 'Backend Developer',
   github: 'https://github.com/akashdeep62992-star',
   // Add these to show extra contact buttons:
-  email: '',
-  linkedin: '',
+  email: 'akashdeep62992@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/akash-deep-967ba0451/',
   resume: '',
 }
 

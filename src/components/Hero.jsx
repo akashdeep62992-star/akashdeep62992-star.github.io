@@ -1,5 +1,5 @@
 import { profile, projects } from '../data/profile.js'
-import { GitHubIcon } from './Icons.jsx'
+import { GitHubIcon, LinkedInIcon } from './Icons.jsx'
 import StatusBoard from './StatusBoard.jsx'
 
 export default function Hero() {
@@ -35,6 +35,11 @@ export default function Hero() {
             <a className="btn" href={profile.github} target="_blank" rel="noopener noreferrer">
               <GitHubIcon /> GitHub
             </a>
+            {profile.linkedin && (
+              <a className="btn" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon /> LinkedIn
+              </a>
+            )}
           </div>
           <div className="facts">
             <span><b>{projects.length}</b> shipped projects</span>

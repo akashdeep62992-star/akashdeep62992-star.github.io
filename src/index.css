@@ -165,3 +165,12 @@ img{max-width:100%}
   .intro-text strong{font-size:1.15rem}
   .intro-text .pill{font-size:.72rem;padding:5px 10px}
 }
+
+/* Contact extras */
+.email-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:20px;padding:8px 8px 8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);max-width:100%;width:fit-content}
+.email-text{font-size:.92rem;overflow-wrap:anywhere;user-select:all;min-width:0}
+.copy-btn{font:600 .8rem var(--body);padding:6px 12px;border-radius:7px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.copy-btn:hover{border-color:var(--accent);color:var(--accent)}
+.contact-actions{flex-direction:column;align-items:stretch}
+.contact-actions .btn{justify-content:center}
+@media (max-width:960px){.contact-actions{flex-direction:row;flex-wrap:wrap}}
